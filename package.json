@@ -1,0 +1,33 @@
+{
+  "name": "wedding-site",
+  "version": "1.0.0",
+  "description": "wedding site for jeff and cindy",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "start": "gatsby develop"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.7",
+    "@types/lodash-es": "^4.17.1",
+    "@types/mapbox-gl": "^0.51.4",
+    "@types/node": "^10.12.21",
+    "@types/react": "^16.8.1",
+    "@types/react-dom": "^16.0.11",
+    "gatsby": "^2.0.111",
+    "gatsby-plugin-sass": "^2.0.10",
+    "gatsby-plugin-typescript": "^2.0.6",
+    "sass": "^1.16.1",
+    "tslint": "^5.12.1",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.3.1"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.5.0",
+    "bulma": "^0.7.2",
+    "classnames": "^2.2.6",
+    "lodash-es": "^4.17.11",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
