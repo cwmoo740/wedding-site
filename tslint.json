@@ -4,10 +4,23 @@
     "tslint-react"
   ],
   "rules": {
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "jsx-no-multiline-js": [
+      false
+    ],
     "quotemark": [
       true,
       "single",
-      "jsx-double"
+      "jsx-single"
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-snake-case"
     ]
   }
 }

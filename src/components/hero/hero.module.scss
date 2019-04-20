@@ -1,6 +1,31 @@
+@import '~bulma/sass/utilities/mixins';
+
 .hero {
   background: url('../../assets/superstition_mountains.jpg') center center no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.hero-body {
+
+  @include tablet {
+    .container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+
+      img {
+        height: 100px;
+      }
+    }
+  }
+
+  img {
+    height: 50px;
+  }
+
 }
 
 .bitches {
