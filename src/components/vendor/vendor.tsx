@@ -6,7 +6,7 @@ import classnames from 'classnames';
 
 function Vendor() {
     return (
-        <section className={classnames('sections', scss.section)}>
+        <section className={classnames('section', scss.section)}>
             <div className='container is-widescreen is-gapless'>
                 <h1 className='title has-text-centered'>
                     Hosted by&nbsp;
@@ -14,13 +14,13 @@ function Vendor() {
                 </h1>
                 <div className='columns is-vcentered'>
                     <img
-                        style={{paddingTop: 0, paddingBottom: 0}}
+                        style={{padding: 0}}
                         className='column'
                         src={tables}
                         alt='Dinner Tables'
                     />
                     <img
-                        style={{paddingTop: 0, paddingBottom: 0}}
+                        style={{padding: 0}}
                         className='column'
                         src={altar}
                         alt='Wedding Venue'

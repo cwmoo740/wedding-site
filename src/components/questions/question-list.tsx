@@ -1,20 +1,21 @@
 import {Set} from 'immutable';
 import React from 'react';
 import {QuestionId} from './common';
-import Question, {Props as QuestionProps} from './question';
-
-interface Props {
-    questions: Array<Pick<QuestionProps, 'question' | 'answer' | 'id'>>;
-}
+import Question from './question';
+import questions from './questions';
 
 interface State {
     active: Set<QuestionId>;
 }
 
-class QuestionList extends React.PureComponent<Props, State> {
+class QuestionList extends React.PureComponent<{}, State> {
+
+    public state: State = {
+        active: Set(),
+    };
 
     public render() {
-        return this.props.questions.map(({question, answer, id}) => (
+        const html = questions.map(({question, answer, id}) => (
                 <Question
                     active={this.state.active.has(id)}
                     answer={answer}
@@ -25,6 +26,18 @@ class QuestionList extends React.PureComponent<Props, State> {
                 />
             ),
         );
+        return (
+            <section className='section'>
+                <div className='container is-widescreen is-gapless'>
+                    <h1 className='title has-text-centered'>
+                        Questions
+                    </h1>
+                    <div className='columns' style={{flexWrap: 'wrap'}}>
+                        {html}
+                    </div>
+                </div>
+            </section>
+        );
     }
 
     private readonly onClick = (id: QuestionId) => {
@@ -33,7 +46,7 @@ class QuestionList extends React.PureComponent<Props, State> {
         } else {
             this.setState({active: this.state.active.add(id)});
         }
-    }
+    };
 }
 
 export default QuestionList;

@@ -1,5 +1,5 @@
 import QuestionList from './question-list';
 
-export {QuestionId} from './common';
+export {Question, QuestionId} from './common';
 
 export default QuestionList;
