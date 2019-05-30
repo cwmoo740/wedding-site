@@ -10,7 +10,7 @@ function Location() {
         <section className={classnames('section', scss.section)}>
             <div className='container is-widescreen is-gapless'>
                 <h1 className='title is-2 has-text-centered'>Phoenix, AZ</h1>
-                <h2 className='subtitle is-2 has-text-centered'>Quarter Circle U Ranch</h2>
+                <h2 className='subtitle is-2 has-text-centered'>Superstition Mountains</h2>
                 <div className='columns'>
                     <a
                         style={{paddingTop: 0, paddingBottom: 0}}

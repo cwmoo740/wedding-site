@@ -14,6 +14,7 @@
     "@types/node": "^11.13.4",
     "@types/react": "^16.8.1",
     "@types/react-dom": "^16.0.11",
+    "@types/react-onclickoutside": "^6.7.3",
     "gatsby": "^2.3.22",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-typescript": "^2.0.12",
@@ -29,6 +30,8 @@
     "immutable": "^4.0.0-rc.12",
     "lodash-es": "^4.17.11",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-add-to-calendar-hoc": "^1.0.8",
+    "react-dom": "^16.8.6",
+    "react-onclickoutside": "^6.8.0"
   }
 }
