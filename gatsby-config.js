@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         siteName: 'Jeff and Cindy',
     },
-    pathPrefix: '/wedding-site',
+    pathPrefix: '/',
     plugins: [
         'gatsby-plugin-typescript',
         {
