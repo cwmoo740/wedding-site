@@ -3,29 +3,35 @@ import {Question} from './common';
 
 const questions: Question[] = [
     {
-        answer: 'No. We have enough things, and just want your company.',
+        answer: `No. We have enough things, and just want your company.
+        If you still prefer to bring a gift, we would appreciate a card.`,
         id: 'gifts',
         question: 'Do you want any gifts?',
     },
     {
-        answer: `Semi formal, but comfortable.
+        answer: `Semi formal, but comfortable. We will be outdoors for entire wedding.
                  The weather is usually about 30°C (86°F) but could drop to 18°C (65°F) later at night.`,
         id: 'clothes',
         question: 'What should I wear?',
     },
     {
-        answer: 'Yes! Children are welcome but please list them in the RSVP. Dogs are encouraged but must be on leash.',
+        answer: `Yes! Children are welcome but please list them in the RSVP or send us a message.
+        Dogs are encouraged but must be on leash.`,
         id: 'children',
         question: 'Can I bring children or pets?',
     },
     {
         answer: `Yes, the ceremony and reception will all be outdoors
-        surrounded by the Superstition Mountains. Wear comfortable shoes!`,
+        surrounded by the Superstition Mountains.
+        The temperature will vary during the event but is usually between 30°C (86°F) and 18°C (65°F).
+        There will be a tent for shade. Wear comfortable shoes!`,
         id: 'outdoors',
         question: 'Is the wedding outdoors?',
     },
     {
-        answer: 'Check back for more information on this closer to the wedding date.',
+        answer: `The venue itself is 6 miles down a dirt road that is driveable by a normal passenger car.
+        There is some parking available on site, and we are looking into arranging a shuttle.
+        Check back for more information on this closer to the wedding date.`,
         id: 'shuttle',
         question: 'How do I get to the venue?',
     },
