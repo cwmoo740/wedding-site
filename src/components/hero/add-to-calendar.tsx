@@ -49,8 +49,8 @@ class AddToCalendar extends React.Component {
                 <COMPONENT
                     ref={(x: React.Component<any, {dropdownOpen: boolean}>) => this.dropdown = x}
                     event={event}
-                    buttonText={<span>October 26, 2019 <br/>17:00</span>}
-                    buttonProps={{dateTime: '2019-10-27 00:00:00.000Z'}}
+                    buttonText={<span>October 26, 2019 <br/>16:30</span>}
+                    buttonProps={{dateTime: '2019-10-26 23:30:00.000Z'}}
                     linkProps={{className: classnames('dropdown-item', 'button', scss.dropdownItem)}}
                 />
             </div>
