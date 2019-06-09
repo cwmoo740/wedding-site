@@ -9,7 +9,7 @@ const questions: Question[] = [
         question: 'Do you want any gifts?',
     },
     {
-        answer: `Semi formal, but comfortable. We will be outdoors for entire wedding.
+        answer: `Semi formal, but comfortable. We will be outdoors for the entire wedding.
                  The weather is usually about 30°C (86°F) but could drop to 18°C (65°F) later at night.`,
         id: 'clothes',
         question: 'What should I wear?',
