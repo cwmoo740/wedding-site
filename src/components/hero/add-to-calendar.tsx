@@ -9,7 +9,7 @@ const event = {
     duration: '0500',
     endDatetime: '20191026T220000',
     location: '20765 E Gold Rush Rd, Gold Canyon, AZ 85118',
-    startDatetime: '20191026T170000',
+    startDatetime: '1572132600',
     timezone: 'America/Phoenix',
     title: 'Cindy and Jeff Wedding',
 };
