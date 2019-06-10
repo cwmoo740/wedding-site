@@ -12,19 +12,21 @@ function Vendor() {
                     Hosted by&nbsp;
                     <a href='https://clothandflame.com/'>Cloth & Flame</a>
                 </h1>
-                <div className='columns is-vcentered'>
-                    <img
-                        style={{padding: 0}}
-                        className='column'
-                        src={tables}
-                        alt='Dinner Tables'
-                    />
-                    <img
-                        style={{padding: 0}}
-                        className='column'
-                        src={altar}
-                        alt='Wedding Venue'
-                    />
+                <div className='columns is-vcentered' style={{margin: 0}}>
+                    <div className='column' style={{padding: 0}}>
+                        <img
+                            style={{display: 'block'}}
+                            src={tables}
+                            alt='Dinner Tables'
+                        />
+                    </div>
+                    <div className='column' style={{padding: 0}}>
+                        <img
+                            style={{display: 'block'}}
+                            src={altar}
+                            alt='Wedding Venue'
+                        />
+                    </div>
                 </div>
             </div>
         </section>

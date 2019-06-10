@@ -9,7 +9,7 @@ class PhotosList extends React.PureComponent {
         return (
             <section className='section' style={{padding: '1rem 0 0 0'}}>
                 <div className='container is-widescreen is-gapless'>
-                    <div className='columns is-vcentered'>
+                    <div className='columns is-vcentered' style={{margin: 0}}>
                         <Photo url={MunichRiver}/>
                         <Photo url={Stanford}/>
                         <Photo url={Zugspitze}/>

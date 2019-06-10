@@ -11,14 +11,14 @@ function Location() {
             <div className='container is-widescreen is-gapless'>
                 <h1 className='title is-2 has-text-centered'>Phoenix, AZ</h1>
                 <h2 className='subtitle is-2 has-text-centered'>Superstition Mountains</h2>
-                <div className='columns'>
+                <div className='columns' style={{margin: 0}}>
                     <a
-                        style={{paddingTop: 0, paddingBottom: 0}}
+                        style={{padding: 0}}
                         href='https://goo.gl/maps/mVGTB6kneoC2'
                         className='column'
                     >
                         <img
-                            style={{width: '100%'}}
+                            style={{width: '100%', display: 'block'}}
                             className={scss.mapbox_image}
                             src={mapbox_url}
                             alt='Wedding Venue Map'

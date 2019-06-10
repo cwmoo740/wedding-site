@@ -6,12 +6,13 @@ export interface Props {
 
 function Photo({url}: Props) {
     return (
-        <img
-            src={url}
-            alt='jeff and cindy'
-            style={{padding: '0px'}}
-            className='column'
-        />
+        <div className='column' style={{padding: 0}}>
+            <img
+                style={{padding: 0, display: 'block'}}
+                src={url}
+                alt='jeff and cindy'
+            />
+        </div>
     );
 }
 
