@@ -24,14 +24,15 @@ const questions: Question[] = [
         answer: `Yes, the ceremony and reception will all be outdoors
         surrounded by the Superstition Mountains.
         The temperature will vary during the event but is usually between 30°C (86°F) and 18°C (65°F).
-        There will be a tent for shade. Wear comfortable shoes!`,
+        Wear comfortable shoes!`,
         id: 'outdoors',
         question: 'Is the wedding outdoors?',
     },
     {
-        answer: `The venue itself is 6 miles down a dirt road that is driveable by a normal passenger car.
-        There is some parking available on site, and we are looking into arranging a shuttle.
-        Check back for more information on this closer to the wedding date.`,
+        answer: `The venue is 6 miles down a dirt road that is drivable by a normal passenger car.
+        There is enough parking available on site for all guests. We do not recommend relying
+        on a taxi or car share, as there is little to no cell signal at the venue itself and
+        it may be difficult to call a car.`,
         id: 'shuttle',
         question: 'How do I get to the venue?',
     },
