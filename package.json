@@ -30,7 +30,7 @@
     "bulma": "^0.7.4",
     "classnames": "^2.2.6",
     "immutable": "^4.0.0-rc.12",
-    "lodash-es": "^4.17.11",
+    "lodash-es": "^4.17.21",
     "react": "^16.8.6",
     "react-add-to-calendar-hoc": "^1.0.8",
     "react-dom": "^16.8.6",
